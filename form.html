@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a href="./css/style.css"></a>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="pd-25">
+        <a class="pd-10 rounded-10 large-weight borderless link-btn" target="_blank" href="./card.html">Card UI</a>
+        <a class="pd-10 rounded-10 weight borderless link-btn" target="_blank" href="./form.html">Form UI</a>
+        <a class="pd-10 rounded-10 secondary borderless link-btn" target="_blank" href="./index.html">Button UI</a>
+        <a class="pd-10 rounded-10 light-red borderless link-btn" target="_blank" href="./list.html">List UI</a>
+        <a class="pd-10 rounded-10 blueviolet borderless link-btn" target="_blank" href="./table.html">Table UI</a>
+    </div>
+
+    <h1 class="mb-15 mt-5 ml-5">Form UI</h1>
+
+    <form class="pd-25">
+        <fieldset>
+            <legend style="text-align: center;">
+                <h3>Apply Job</h3>
+            </legend>
+
+            <div class="mb-15 ml-25" style="margin-top: 40px;">
+                <label class="pd-5 mb-15" for="user_name">
+                    <i class="fa-solid fa-user"></i>
+                    User Name</label>
+                <input class="pd-5" type="text" id="user_name" name="user_name">
+            </div>
+
+            <div class="mb-15 ml-25">
+                <label class="pd-5" for="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email</label>
+                <input class="pd-5" type="email" id="email" name="email">
+            </div>
+
+            <div class="mb-15 ml-25">
+                <label class="pd-5" for="password">
+                    <i class="fa-solid fa-lock"></i>
+                    Password</label>
+                <input class="pd-5" type="password" id="password" name="password">
+            </div>
+
+            <div class="ml-25 mb-15">
+                <label class="block pd-5" for="select_position">
+                    <i class="fa-solid fa-suitcase"></i>
+                    Select Your Position</label>
+                <div class="ml-25">
+                    <select name="select_position" id="select_position" class="select-your-position pd-5 ml-5">
+                        <option value="front_end">Front-end Developer</option>
+                        <option value="back_end">Back-end Developer</option>
+                        <option value="react_developer">React Developer</option>
+                        <option value="full_stack_developer">Full Stack Developer</option>
+                        <option value="mern_stack_developer">MERN Stack Developer</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="pd-5 ml-25 mb-15">
+                <label class="block mb-10" for="select_your_skill">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Select Your Skill</label>
+
+                <div class="ml-10 mb-5">
+                    <input class="check-box" type="checkbox" id="html" name="html">
+                    <label for="html">HTML</label>
+                </div>
+
+
+                <div class="ml-10 mb-5">
+                    <input class="check-box" type="checkbox" id="css" name="css">
+                    <label for="css">CSS</label>
+                </div>
+
+
+                <div class="ml-10 mb-5" >
+                    <input class="check-box" type="checkbox" id="js" name="js">
+                    <label for="js">JavaScript</label>
+                </div>
+
+
+                <div class="ml-10 mb-5" >
+                    <input class="check-box" type="checkbox" id="react" name="react">
+                    <label for="react">React</label>
+                </div>
+
+                <div class="ml-10 mb-5">
+                    <input class="check-box" type="checkbox" id="php" name="php">
+                    <label for="php">PHP</label>
+                </div>
+            </div>
+
+            <div class="mb-15 ml-25">
+                <label class="pd-5 block" for="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Address</label>
+                <textarea class="ml-5 pd-5" name="address" id="address" cols="30" rows="5"></textarea>
+            </div>
+
+            <div class="pd-5 ml-25">
+                <button class="form-button rounded-5">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
